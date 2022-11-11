@@ -19,33 +19,46 @@
                 <label for="fuerza">Ingrese la Fuerza</label>
                 <input id="fuerza" type="number" placeholder="Ingrese la Fuerza">
                 <label for="">¿Tiene Friccion?</label>
-                <input id="friccionSi" type="radio" name="friccion">Si <input id="friccionNo" type="radio" name="friccion">no
+                <div class="col-4">
+                    <input id="friccionSi" type="radio" name="friccion" >Si
+                </div>
+                <div class="col-4">
+                    <input id="friccionNo" type="radio" name="friccion">No
+                </div>
                 <div class="contenedorFriccion">
-                    <select id="friccion">
-                    <option value="nada">NADA</option>
-                    <option value="madera">madera sobre madera</option>
-                    <option value="aceroHielo">Acero sobre hielo</option>
-                    <option value="cauchoTeflon">caucho sobre teflon</option>
-                    <option value="teflon">teflon sobre teflon</option>
-                    <option value="vidrio">teflon sobre teflon</option>
-                    <option value="esquiNieve">esqui(encerrado) sobre nieve (0°C)</option>
-                    <option value="maderaCuero">madera sobre cuero</option>
-                    <option value="aluminioAcero">aluminiio sobre acero</option>
-                    <option value="humano">articulaciones humanas</option>
+                    <select id="friccion" class=".col-md-6 .offset-md-3">
+                    <option value="nada">Nada</option>
+                    <option value="madera">Madera sobre Madera</option>
+                    <option value="aceroHielo">Acero sobre Hielo</option>
+                    <option value="cauchoTeflon">Caucho sobre Teflon</option>
+                    <option value="teflon">Teflon sobre Teflon</option>
+                    <option value="vidrio">Vidrio sobre Teflon</option>
+                    <option value="esquiNieve">Esqui(encerrado) sobre nieve (0°C)</option>
+                    <option value="maderaCuero">Madera sobre Cuero</option>
+                    <option value="aluminioAcero">Aluminio sobre Acero</option>
+                    <option value="humano">Articulaciones Humanas</option>
                 </select>
                 </div>
                 
-                <input id="calcular" type="button" value="Calcular">
-                <input type="reset" value="Borrar">
+                <div class="col">
+                    <input id="calcular" type="button" value="Calcular" class="btn-cs">
+                </div>
+                <div class="col">
+                    <input type="reset" value="Borrar" class="btn-cs">
+                </div>
             </form>
             <div id="idRespuestas" class="respuesta">
 
             </div>
         </div>
         <hr>
-        <footer>
-            <p>FrontEnd Nicolás Martinez 5°I</p>
-            <p>BackEnd Ignacio Maldonado 3°I</p>
+        <footer class="row">
+            <div class="col-4">
+                <p>FrontEnd Nicolás Martinez 5°I</p>
+            </div>
+            <div class="col-4">
+                <p>BackEnd Ignacio Maldonado 3°I</p>
+            </div>
         </footer>
         <script src="./calculadora.js"></script>
         <!-- JavaScript Bundle with Popper -->

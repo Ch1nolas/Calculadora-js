@@ -8,8 +8,9 @@
 }
 
 body {
-    width: 100%;
-    background-color: bisque;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #BB8FCE 100%, #f1ecf3 0%)
 }
 
 h1 {
@@ -21,29 +22,41 @@ h1 {
 
 label {
     font-size: 20px;
-    text-align: center;
-}
-input {
-    text-align: center;
+    text-align: start;
 }
 footer p {
     font-size: 20px;
 }
 
-.contenedor {
-    display: flex;
-    flex-direction: column;
-}
 .calculadora {
     display: flex;
     
 }
+
+#friccionSi,
+#friccionNo {
+    width: 30px;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+#friccion{
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+/**
 .contenedor form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
+}
+**/
+
+#masa,
+#fuerza {
+    width: 300px;
 }
 
 footer {
