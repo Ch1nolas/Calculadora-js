@@ -63,4 +63,3 @@ if fuerza>fre:
 else:
     print("No se vence la friccion")
     print("La aceleracion es 0")
-    
