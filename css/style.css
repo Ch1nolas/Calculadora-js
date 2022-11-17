@@ -37,7 +37,10 @@ footer p {
     margin-left: 20px  ;
     
 }
-
+ 
+.contenedorFriccion {
+    display: none;
+}
 
 #friccionSi,
 #friccionNo {

@@ -78,8 +78,8 @@ const calcularTodo = () => {
         console.log("se mueve")
         const frd = ud*N
         const a = (fuerza-frd)/masa
-        console.log("La aceleracion es " + a + " m/s2")
-        let res = "Se mueve. La aceleración es " + a + " m/s2"
+        console.log("La aceleracion es " + a.toFixed(2) + " m/s2")
+        let res = "Se mueve. La aceleración es " + a.toFixed(2) + " m/s2"
         respuesta(res)
     } else {
         console.log("No se vence la friccion")
